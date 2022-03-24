@@ -1,0 +1,581 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: algerian;
+}
+
+html,body{
+	background-color: #030512;
+	width: 100%;
+	height: 100%;
+	background-image: url('../imagens/bg-1.jpg'), url('../imagens/bg-2.jpg');
+	background-repeat: no-repeat, no-repeat;
+	background-position: left, right;
+	background-size: 20% 100%;
+	background-attachment: fixed;
+}
+
+.conteiner{
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	-webkit-box-shadow: 5px 5px 15px 5px #A5A099; 
+	box-shadow: 5px 5px 15px 5px #A5A099;
+}
+
+.clear{
+	clear: both;
+}
+
+/* Aqui começa o estilo do botao do slik*/
+
+	.slick-dotted ul{
+		list-style-type: none;
+		text-align:center;
+		position: relative;
+	}
+
+	.slick-dotted li{
+		display: inline-block;
+		margin: 0 7px;
+	}
+
+	.slick-dotted button:focus{
+		outline: none;
+	}
+
+	.slick-dotted li button{
+		width: 16px;
+		height: 16px;
+		border-radius: 8px;
+		color: transparent;
+		border-width: 0;
+		background: linear-gradient(#E9e78f,#D7c462,#967631,#96732f,#6b4d1d);
+		opacity: 1;
+		cursor: pointer;
+	}
+
+	li.slick-active button {
+		background: #f2c738;
+		color: #f2c738;
+	}
+
+	.slick-slide:focus{outline: none;}
+
+	.slick-next {
+	   right: -25px;
+	}
+
+	.slick-prev {
+	    left: -30px;
+	}
+
+	.slick-prev, .slick-next {
+	    font-size: 0;
+	    line-height: 0;
+	    position: absolute;
+	    top: 50%;
+	    display: block;
+	    width: 20px;
+	    height: 20px;
+	    padding: 0;
+	    -webkit-transform: translate(0, -50%);
+	    -ms-transform: translate(0, -50%);
+	    transform: translate(0, -50%);
+	    cursor: pointer;
+	    color: transparent;
+	    border: none;
+	    outline: none;
+	    background: transparent;
+	    /*background-color: black;*/
+	}
+
+	.slick-next:before {
+	    content: '>';
+	}
+	.slick-prev:before{
+		content: '<';
+	}
+	.slick-prev:before, .slick-next:before {
+	    font-family: 'FontAwesome 5 Pro';
+	    font-size: 60px;
+	    font-weight: 900;
+	    line-height: 1;
+	    opacity: .75;
+	    color: white;
+	   /* -webkit-font-smoothing: antialiased;
+	    -moz-osx-font-smoothing: grayscale;*/
+	}
+
+/* Aqui termina o estilo do botao do slik*/
+
+/* Aqui começa o header*/
+
+.head{
+	background-color:#0a0a0a;
+	max-width: 800px;
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+	max-height: 300px;
+	/*margin-top: 120px;*/
+	-webkit-box-shadow: 5px 5px 15px 5px #A5A099; 
+	box-shadow: 5px 5px 15px 5px #A5A099;
+}
+
+.logo{
+	margin-top:20px; 
+	margin-left: 40px;
+	float: left;
+	width: 250px;
+	height: 250px;
+	background-image: url('../imagens/logo2.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.head h2{
+	font-family: 'Abhaya Libre';
+	font-weight: 900;
+	font-size: 60px;
+  	background:linear-gradient(#E9e78f,#D7c462,#967631,#96732f,#6b4d1d);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+	float: right;
+	text-align: center;
+	margin: 100px auto;
+	margin-right: 80px;
+
+}
+
+/* Aqui termina o header*/
+
+
+
+/*Aqui começa o banner*/
+
+.banner{
+	margin-top: 50px;
+	width: 100%;
+	/*height: 100%;*/
+	max-height: 550px;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+	max-height: 500px;
+	margin-left: -7px;
+}
+
+/*Aqui termina o banner*/
+
+
+
+
+/* Aqui começa a sessao1*/
+
+section.sessao1 h2{
+	border-bottom:2px solid black; 
+	border-top: 2px solid black;
+	text-align: center;
+	color: white;
+	background-color: #53565c;
+}
+
+section.sessao1 .flex-mosaico{
+	display: flex;
+	margin-top: 7px;
+}
+
+.item1{
+	background-position: center;
+	background-size: 100% 100%;
+	width: 40%;
+}
+
+.item2{
+	width:60%;
+	padding:20px 40px;
+	background-color:#53565c;
+	color: white;
+}
+.item2 h2{
+	margin-top:-10;
+}
+
+.item2 p{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.item2 h4{
+	margin-top: 30px;
+	text-align:center; 
+}
+
+/* Aqui termina a sessa1*/
+
+
+/*Aqui começa o formulario*/
+
+section.contato .ld1{
+	text-align:center;
+	color: white;
+	background-color: #53565c;
+	width: 100%;
+	/*float: left;*/
+	/*padding-left: 10px;*/
+	padding: 10px;
+}
+
+section.contato .ld1 h2{
+	/*margin: 8px;*/
+	font-size: 28px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+section.contato .ld1 p{
+	margin:8px;
+	font-size: 15px;
+}
+
+section.contato form input[type=text]{
+	width: 100%;
+	display: inline-block;
+	max-width: 500px;
+	height: 40px;
+	margin-top:8px;
+	padding: 8px;
+	line-height: 58px;
+	border:1px solid rgb(200,200,200);
+}
+
+section.contato form textarea{
+	width: 100%;
+	margin-top: 8px;
+	max-width: 500px;
+	padding: 15px;
+	border:1px solid rgb(200,200,200);
+	height: 160px;
+}
+
+section.contato form input[type=submit]{
+	background-color:#d6b109 ;
+	width:165px;
+	height: 44px;
+	border:0;
+	color:white;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 30px;
+}
+
+/*Aqui termina o formulario*/
+
+
+/*Aqui começa o footer*/
+footer{
+	max-width:1000px; 
+	margin: 0 auto;
+	color: white;
+	background-color: #0a0a0a;
+	text-align: center;
+	border-top: 5px solid rgb(140,140,140);
+	border-bottom: 5px solid rgb(140,140,140);	
+	-webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+}
+
+footer p{
+	font-size: 10px;
+	margin-top: 10px;
+}
+/*Aqui termina o footer*/
+
+/*Aqui começa a loja*/
+
+.sessao2{
+	margin-top: 15px;
+	margin-bottom: 18px;
+}
+
+.sessao2 .conteiner{
+	-webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0);
+	-moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0);
+	box-shadow: 10px 10px 5px 1px rgba(0,0,0,0);
+	max-width: 1000px;
+	width: 100%;
+}
+
+.sessao2 h2{
+	color: white;
+}
+
+.sessao2 .loja{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	font-family: sans-serif;
+}
+
+.card{
+	font-family: sans-serif;
+	float: left;
+	margin:0 10px;
+	position: relative;
+	width: 100%;
+	max-width: 200px;
+	height: 100%;
+	max-height: 250px;
+	background: #0a0a0a;
+	border-radius: 20px;
+	overflow: hidden;
+	-webkit-box-shadow: 5px 5px 15px 5px #A5A099; 
+	box-shadow: 5px 5px 15px 5px #A5A099;
+}
+
+.card::before{
+	content: '';
+	position: absolute;
+	top: -50%;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#E9e78f,#D7c462,#967631,#96732f,#6b4d1d);
+	transform: skewY(345deg);
+	transition: 0.5s;
+}
+
+.card:hover::before{
+	top: -70%;
+	transform: skewY(390deg);
+}
+
+.card::after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-weight: 600;
+	font-size: 7em;
+	color: rgba(0,0,0,0.4);
+	transition: 0.5s;
+}
+
+.card:hover::after{
+	font-size: 75px;
+	transition: 0.5s;
+}
+
+.card .imgBx{
+	position:relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 40px;
+	z-index: 1;
+}
+
+.card .imgBx2{
+	position:relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 40px;
+	z-index: 1;
+}
+
+.card .imgBx img{
+	width: 100%;
+	max-width: 150px;
+	transition: 0.5s;
+}
+.card .imgBx2 img{
+	width: 100%;
+	max-width: 100px;
+	transition: 0.5s;
+}
+
+.card:hover .imgBx img{
+	width: 110px;
+}
+
+.card:hover .imgBx2 img{
+	width: 80px;
+}
+
+.card .contentBx{
+	text-align: center;
+	position: relative;
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	z-index: 1;
+}
+
+.card .contentBx h3{
+	font-size: 18px;
+	color: #fff;
+	font-weight: 500;
+	text-transform: uppercase;
+	/*letter-spacing: 1px;*/
+}
+
+.card .contentBx .price{
+	font-size: 24px;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-top:-10px;
+}
+
+.card .contentBx .buy{
+	position: relative;
+	top: 200px;
+	opacity: 0;
+	padding: 10px 30px;
+	margin-top: 25px;
+	color: #fff;
+	text-decoration: none;
+	background: linear-gradient(#E9e78f,#D7c462,#967631,#96732f,#6b4d1d);
+	border-radius: 30px;
+	text-transform: uppercase;
+	/*letter-spacing: 1px;*/
+	transition: 0.5s;
+	font-size: 12px;
+}
+
+.card .contentBx .buy2{
+	position: relative;
+	top: 200px;
+	opacity: 0;
+	padding: 10px 30px;
+	margin-top: 25px;
+	color: #fff;
+	text-decoration: none;
+	background: #2196f3;
+	border-radius: 30px;
+	text-transform: uppercase;
+	/*letter-spacing: 1px;*/
+	transition: 0.5s;
+	font-size: 12px;
+}
+
+.card:hover .contentBx .buy{
+	top: -30px;
+	opacity: 1;
+}
+
+.card:hover .contentBx .buy2{
+	top: -45px;
+	opacity: 1;
+}
+
+/*Aqui termina a loja*/
+
+@media screen and (max-width:940px){
+	.logo{
+		margin:0;
+	}
+
+	.head h2{
+		margin-right:40px;
+	}
+}
+
+@media screen and (max-width:780px){
+	.head{
+		text-align: center;
+	}
+	.logo{
+		width: 8em;
+		height: 8em;
+		margin-left: auto;
+    	margin-right: auto;
+   		float: none;
+	}
+	.head h2{
+		margin:50px;
+		margin-left: auto;
+    	margin-right: auto;
+   		text-align:center;
+   		float:none;
+	}
+	section.sessao1 .flex-mosaico{
+		display: block;
+	}
+
+	.item1{
+		padding-top:60%; 
+		width: 100%;
+	}
+
+	.item2{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:400px){
+		.head{
+			-webkit-box-shadow: none;
+			-moz-box-shadow: none;
+			box-shadow: none;
+		}
+		.conteiner{
+			-webkit-box-shadow: none;
+			-moz-box-shadow: none;
+			box-shadow: none;
+		}
+		footer{
+			-webkit-box-shadow: none;
+			-moz-box-shadow: none;
+			box-shadow: none;
+		}
+}
+
+@media screen and (max-width:360px){
+	.head h2{
+		display: none;
+	}
+
+	.logo{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.sessao2{
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.sessao2 .card{
+		float: none;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.card::before{
+		background:none;
+	}
+
+	.slick-next{
+		right: 0;
+		margin-right: 50px; 
+	}
+
+	.slick-prev{
+		left: 0;
+		margin-left: 50px;
+	}
+}
