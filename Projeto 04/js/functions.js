@@ -1,0 +1,70 @@
+$(function(){
+	$('.mosaico .conteiner .mosaico-wraper').slick({
+		centerMode:false,
+		slidesToShow: 6,
+		arrow:false,
+		responsive:[
+		{
+			breakpoint:768,
+			settings:{
+				arrows:false,
+				centerMode:true,
+				slidesToShow:3
+			}
+		},
+		{
+			breakpoint:580,
+			settings:{
+				arrows:false,
+				centerMode:true,
+				slidesToShow:2
+			}
+		},
+		{
+			breakpoint:380,
+			settings:{
+				arrows:false,
+				centerMode:true,
+				slidesToShow:1
+			}
+		},
+		]
+	});
+
+	$('.tratamentos .conteiner').slick({
+		centerMode:false,
+		slidesToShow:3,
+		arrow:false,
+		infinite:false,
+		responsive:[
+			{
+				breakpoint:768,
+				settings:{
+					centerMode:false,
+					slidesToShow:2,
+					arrows:false,
+					infinite:false,
+					dots:true
+				}
+			},
+			{
+				breakpoint:480,
+				settings:{
+					centerMode:false,
+					slidesToShow:1,
+					arrows:false,
+					infinite:false,
+					dots:true
+				}
+			},
+		]
+	});
+
+	$('.depoimentos .conteiner').slick({
+		centerMode:false,
+		slidesToShow:1,
+		arrows:false,
+		infinite:false,
+		dots:true,
+	});
+})
