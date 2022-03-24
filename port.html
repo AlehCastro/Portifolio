@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0"/>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+	<title>Portifólio</title>
+</head>
+<body>
+	<div class="corpo">
+		<div class="logo">Meu Portifolio</div>
+		<nav class="menu-desktop">
+			<ul>
+				<li><a href="#topo">Ínicio</a></li>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#trabalhos">Trabalhos</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+
+		<nav class="menu-mobile">
+			<ul>
+				<li><a href="">Ínicio</a></li>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#trabalhos">Trabalhos</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+
+	</div>
+
+	<div id="topo" class="pessoa">
+		<div class="conteiner2">
+
+			<div class="ld1">
+				<div class="quad">
+					<img src="imagens/perfil.jpeg">	
+				</div>
+			</div>
+
+			<div class="ld2">
+			<h1>Alexandre Castro</h1>
+			<p>Olá meu nome é Alexandre de Oliveira Castro tenho 24 anos, atualmente sou estudante de Engenharia de Software na universidade Unicesumar, estudo programação a pouco mais de um ano. Uma paixão que descobri nesse mesmo periodo de um ano e que a cada dia que passa eu estou ainda mais apaixonado por essa área.</p>
+
+			<div class="tecnologias">
+				<h3>Tecnologias que domino...</h3>
+				<i class="fab fa-css3-alt"></i>
+				<i class="fab fa-html5"></i>
+				<i class="fab fa-js-square"></i>
+			</div><!--tecnologia-->
+
+			<div class="estudo">
+				<h3>Tecnologias em estudo...</h3>
+				<i class="fab fa-node-js"></i>
+				<i class="fab fa-vuejs"></i>
+				<i class="fab fa-php"></i>
+			</div><!--estudo-->
+			</div><!--ld2-->
+		</div><!--conteiner2-->
+		</div>
+		<div class="clear"></div>
+	</div><!--pessoa-->
+
+	<div id="sobre" class="sobre">
+		<h1>Um pouco sobre minha historia...</h1>
+		<br>
+		<br>
+		<br>
+		<p>Sou de uma pequena cidade chamada Baependi onde nasci e vivi grande parte de minha vida, uma cidade repleta de turismo por suas cachoeiras mas infelizmente sem muitas oportunidades. Hoje tenho uma pequena empresa de artesanatos regionais de onde tiro minha renda para poder investir ainda mais no meu estudo na área de Desenvolvimento, mesmo estando no primeiro período de Engenharia de Software tenho conhecimento em front-end de web que estudei online por um curso de fullstack na escola Danki Code, livros e pesquisando pela internet, hoje estou estudando a parte de back-end onde tenho um conhecimento mais básico.
+
+		<br> 
+		Apesar de estudar web no momento ainda tenho muita vontade de poder saber um pouco de cada parte tanto desenvolvimento web, mobile, desktop e assim depois finalmente poder chegar a ter conhecimento e poder ingressar em estudos sobre Inteligência Artificial. Essa é uma parte da minha historia e de minhas maiores vontades na área de Desenvolvimento. Um pouco mais abaixo um pouco de meus projetos que desenvolvi estudando e outras para clientes.</p>
+	</div>
+
+	<div id="trabalhos" class="trabalho">
+		<h1>Conheça um pouco dos meus serviços...</h1>
+		<br>
+		<br>
+		<br>
+		<div class="sites">
+			<a href="sites/Artesanato/index.html"><img src="imagens/site1.jpeg"></a>
+			<a href="http://dedartesanatos.com.br"><img src="imagens/site2.jpeg"></a>
+			<a href="sites/Loja Impérios TEC (compras)/index.html"><img src="imagens/site3.jpeg"></a>
+			<a href="sites/Projeto 04/index.html"><img src="imagens/site4.jpeg"></a>
+			<a href="sites/Projeto 05/index.html"><img src="imagens/site5.jpeg"></a>
+			<a href="sites/Projeto_06/index.html"><img src="imagens/site6.jpeg"></a>
+			<a href="sites/cadastro/index.html"><img src="imagens/site7.jpeg"></a>
+			<a href="sites/Calculadora/index.html"><img src="imagens/site8.jpeg"></a>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<div id="contato" class="contato">
+		<h1>Contatos</h1>
+		<br>
+		<br>
+		<form id="form1" method="post" action="form.php">
+			<input type="text" name="nome" placeholder="Nome Completo*" >
+			<input type="text" name="email" placeholder="E-mail*" >
+			<textarea name="mensagem" placeholder="Duvida..." style="resize: none;"></textarea>
+			<input type="submit" value="Enviar">
+		</form>
+		<div class="clear"></div>
+		<div class="redes">
+			<a href="https://www.instagram.com/aleh_castroh/" target="_blank" ><i class="fab fa-instagram"></i></a>
+			<a href="https://api.whatsapp.com/send?phone=5535988004588&text=Ol%C3%A1%20tudo%20bem%3F" target="_blank" ><i class="fab fa-whatsapp"></i></a>
+			<p>Clique nos icones para mais contatos!</p>
+		</div>
+	</div><!--contato-->
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/menu_responsivo.js"></script>
+<script src="js/anime.min.js"></script>
+<script src="js/menuScroll.js"></script>
+<script src="js/js.js"></script>
+</html>

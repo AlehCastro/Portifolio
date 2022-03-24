@@ -1,0 +1,485 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+}
+
+.conteiner{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+/* Aqui começa o estilo do botao do slik*/
+
+	.slick-dotted ul{
+		list-style-type: none;
+		text-align:center;
+		position: relative;
+	}
+
+	.slick-dotted li{
+		display: inline-block;
+		margin: 0 7px;
+	}
+
+	.slick-dotted button:focus{
+		outline: none;
+	}
+
+	.slick-dotted li button{
+		width: 16px;
+		height: 16px;
+		border-radius: 8px;
+		color: #d8d8d8;
+		border-width: 0;
+		background: #d8d8d8;
+		opacity: 1;
+		cursor: pointer;
+	}
+
+	li.slick-active button {
+		background: #945c18;
+		color: #945c18;
+	}
+
+	.slick-slide:focus{outline: none;}
+
+
+
+/* Aqui termina o estilo do botao do slik*/
+
+.header{
+	width: 100%;
+	height: 100px;
+	background-color:#f2c738;
+}
+
+.logo{
+	padding-top:20px ; 
+	margin-left: 150px;
+	width: 150px;
+	height: 80px;
+	float: left;
+}
+
+.logo h2{
+	margin: 0 auto;
+	text-align: center;
+	font-family: cursive;
+	font-size: 40px;
+	color: white;
+}
+
+nav.menu-mobile{
+	margin:36px;
+	cursor: pointer;
+	display: none;
+	width: 32px;
+	height: 32px;
+	background-image: url('../imagens/menu.png');
+	background-size: 100% 100%;
+}
+
+/*nav:hover.menu-mobile ul{
+	opacity: 1;
+}*/
+
+nav.menu-mobile ul{
+	display: none;
+	/*transition: 1s;*/
+	z-index: 1000;
+	background-color: #f2c738;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 80px;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav.menu-mobile ul li{
+	/*transition: 1s;*/
+	border-bottom: 1px solid black;
+	padding: 8px 0; 
+}
+
+nav.menu-mobile ul li:nth-of-type(1){
+	border-top: 1px solid black;
+}
+
+nav.menu-mobile ul li:hover{
+	background-color: #945c18;
+}
+
+nav.menu-mobile ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+nav.menu-desktop{
+	float:right;
+}
+
+nav.menu-desktop ul{
+	color: white;
+	margin-top: 8px;
+	margin-right: 150px;
+	list-style-type: none;
+}
+
+nav.menu-desktop ul li{
+	margin-top: 25px;
+	border-left: 3px solid #fad24d;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	float: left;
+	cursor: pointer;
+	padding: 10px 20px ;
+}
+
+nav.menu-desktop ul li:hover{
+	background-color: #945c18;
+	transition: 1s;
+}
+
+nav.menu-desktop ul a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+
+.banner{
+	width: 100%;
+	max-height: 540px;
+}
+
+img{
+	margin-left: -7px;
+	width: 100%;
+	/*height: 100%;*/
+	max-height: 550px;
+}
+
+.sessao1 .sessao{
+	padding-top: 10px;
+	display: flex;
+	width: 100%;
+	max-height: 200px;
+	height: 100%;
+	background-color: #f2c738;
+}
+
+section.sessao1 .sessao .lado1{
+	color: white;
+	width: 50%;
+	margin-top: 20px;
+	padding: 10px 2%;
+}
+
+section.sessao1 .sessao .lado1 h2{
+	font-size: 25px;
+}
+
+section.sessao1 .sessao .lado1 h3{
+	font-size: 18px;
+	margin-top: 8px;
+}
+
+section.sessao1 .sessao .lado1 p{
+	margin-top: 10px; 
+}
+
+section.sessao1 .sessao .lado1 p a{
+	text-decoration: none;
+	color: red;
+}
+	
+section.sessao1 .sessao .lado2{
+	color: white;
+	
+	text-align: center;
+	width: 50%;
+}
+
+
+section.sessao1 .lado2 .logo2 h2{
+	margin: 25px auto;
+	text-align: center;
+	font-family: cursive;
+	font-size: 60px;
+	color: white;
+}
+
+section.sessao2 h2{
+	border-bottom:2px solid black; 
+	border-top: 2px solid black;
+	text-align: center;
+	color: white;
+	background-color: #945c18;
+}
+
+section.sessao2 .flex-mosaico{
+	display: flex;
+}
+
+section.sessao2 .flex-mosaico .item1{
+	background-position: center;
+	background-size: 100% 100%;
+	width: 60%;
+}
+
+.item2{
+	width:40%;
+	padding:60px 40px;
+	background-color:#945c18;
+	color: white;
+}
+
+section.contato .ld1{
+	text-align:center;
+	color: white;
+	background-color: #945c18;
+	width: 100%;
+	/*float: left;*/
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+section.contato .ld1 h2{
+	/*margin: 8px;*/
+	font-size: 28px;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+section.contato .ld1 p{
+	margin:8px;
+	font-size: 15px;
+}
+
+section.contato form input[type=text]{
+	width: 100%;
+	display: inline-block;
+	max-width: 500px;
+	height: 40px;
+	margin-top:8px;
+	padding-left: 8px;
+	line-height: 58px;
+	border:1px solid rgb(200,200,200);
+}
+
+section.contato form textarea{
+	width: 100%;
+	margin-top: 8px;
+	max-width: 500px;
+	padding: 15px;
+	border:1px solid rgb(200,200,200);
+	height: 160px;
+}
+
+section.contato form input[type=submit]{
+	background-color:#f2c738 ;
+	width:165px;
+	height: 44px;
+	border:0;
+	color:white;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 30px;
+}
+
+/*section.contato .ld2{
+	background-color: #945c18;
+	float: left;
+	width: 50%;
+	height: 415px;
+	align-items: center;
+	position: relative;
+	color: white;
+}
+
+section.contato .ld2 h2{
+	padding: 0 10px;
+	margin: 8px; 
+	text-align: left;
+}
+
+.map-wraper h2{
+	font-size: 23px;
+	font-weight: 300;
+}
+
+.map-wraper3{
+	margin-top:10px;
+	width: 100%;
+	max-width: 480px;
+	position: relative;  	
+}
+
+.map-wraper2{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding-top: 60%;
+}
+
+.map{
+	margin: 0 auto;
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 100%;
+	height: 110%;
+	background-color: white;
+	border:5px solid rgb(200,200,200);
+}*/
+
+footer{
+	color: white;
+	background-color: #f2c738;
+	text-align: center;
+	border-top: 5px solid rgb(140,140,140);
+	border-bottom: 5px solid rgb(140,140,140);	
+}
+
+footer p{
+	font-size: 10px;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 978px){
+	.logo{ 
+		margin-left:0;
+	}
+
+	nav.menu-desktop ul{
+		margin-right: 0;
+	}
+	
+}
+
+@media screen and (max-width: 870px){
+	section.contato .ld2{
+		padding: 0 7px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	li.slick-active button {
+		background: #945c18;
+		color: #945c18;
+	}
+
+	section.sessao2 .flex-mosaico .item1{
+		width: 100%;
+	}
+
+	.item2{
+		width:100%;
+	}
+
+	section.contato .ld2{
+		height: 432px;
+		padding: 0 7px;
+	}
+
+	.banner .conteiner{
+		background-color: #f2c738;
+		padding: 1.5% 2%;
+	}
+	img{
+		margin: -7 auto;
+	}
+
+	.sessao1 .sessao{
+		display: block;
+	}
+
+	section.sessao1 .lado2 .logo2{
+		display:none;
+	}
+
+	section.sessao1 .sessao .lado1{
+		width: 100%;
+		text-align: center;
+	}
+
+	nav.menu-desktop{
+		display: none;
+	}
+
+	nav.menu-mobile{
+		display: block;
+		float: right;
+		z-index: 999;
+	}
+}
+
+@media screen and (max-width: 570px){
+	section.sessao1 .lado2{
+		display: none;
+	}
+
+	/*section.sessao1 .sessao .lado1{
+		margin-top: 40px;
+	}*/
+
+	section.sessao1 .sessao .lado1 p{
+		margin: 0 auto;
+		max-width: 450px;
+	}
+
+	section.sessao2 h2{
+		margin: 0 auto;
+		max-width: 570px;
+	}
+
+	section.sessao2 .flex-mosaico{
+		display: block;
+	}
+
+	section.sessao2 .flex-mosaico .item1{
+		width: 100%;
+		height: 250px;
+	}
+
+	section.sessao2 .flex-mosaico .item2{
+		text-align: justify;
+		width: 100%;
+	}
+
+	section.contato .ld1{
+		width: 100%;
+		padding: 0 35px;
+	}
+
+	section.contato .ld2{
+		width: 100%;
+		padding: 0 35px;
+		border-top: 5px solid gray;
+	}
+}
+
+@media screen and (max-width: 305px){
+	.logo h2{
+		margin-top: 10px;
+		font-size: 30px;
+	}
+
+	.lado1 p{
+		display: none;
+	}
+}

@@ -1,0 +1,196 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+}
+
+.conteiner{
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.clear{
+	clear: both;
+}
+
+.header{
+	border-bottom: 5px solid rgb(140,140,140);
+	width: 100%;
+	height: 100px;
+	background-color:#f2c738;
+}
+
+.logo{
+	padding-top:20px ; 
+	margin-left: 150px;
+	width: 150px;
+	height: 80px;
+	float: left;
+}
+
+.logo h2{
+	margin: 0 auto;
+	text-align: center;
+	font-family: cursive;
+	font-size: 40px;
+	color: white;
+}
+
+nav.menu{
+	float:right;
+}
+
+nav.menu ul{
+	color: white;
+	margin-top: 8px;
+	margin-right: 150px;
+	list-style-type: none;
+}
+
+nav.menu ul li{
+	display: inline-block;
+	margin-top: 25px;
+	border-left: 3px solid #fad24d;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	float: left;
+	padding: 10px 20px ;
+}
+
+nav.menu ul li:hover{
+	background-color: #945c18;
+	transition: 1s;
+}
+
+nav.menu ul a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+
+section.contato .ld1{
+	border:5px solid rgb(140,140,140);
+	color: white;
+	background-color: #945c18;
+	width: 50%;
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+section.contato .ld1 h2{
+	margin: 8px;
+	font-size: 28px;
+}
+
+section.contato .ld1 p{
+	margin:8px;
+	font-size: 15px;
+}
+
+section.contato form input[type=text]{
+	width: 100%;
+	max-width: 480px;
+	height: 40px;
+	margin-top:8px;
+	padding-left: 8px;
+	line-height: 58px;
+	border:1px solid rgb(200,200,200);
+}
+
+section.contato form textarea{
+	width: 100%;
+	margin-top: 8px;
+	max-width: 480px;
+	padding: 15px;
+	border:1px solid rgb(200,200,200);
+	height: 160px;
+}
+
+section.contato form input[type=submit]{
+	background-color:#f2c738 ;
+	width:165px;
+	height: 44px;
+	border:0;
+	color:white;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 30px;
+}
+
+section.contato .ld2{
+	border:5px solid rgb(140,140,140);
+	background-color: #945c18;
+	float: left;
+	width: 50%;
+	height: 425px;
+	align-items: center;
+	position: relative;
+	color: white;
+}
+
+section.contato .ld2 h2{
+	margin: 8px; 
+	text-align: left;
+}
+
+.map-wraper h2{
+	font-size: 23px;
+	font-weight: 300;
+}
+
+.map-wraper3{
+	margin-top:10px;
+	width: 100%;
+	max-width: 480px;
+	position: relative;  	
+}
+
+.map-wraper2{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding-top: 60%;
+}
+
+.map{
+	margin-top: 25px;
+	margin-left: 30px;
+	left: 0;
+	top: 0;
+	position: absolute;
+	width: 100%;
+	height: 110%;
+	background-color: white;
+	border:5px solid rgb(200,200,200);
+}
+
+footer{
+	color: white;
+	background-color: #f2c738;
+	text-align: center;
+	border-top: 5px solid rgb(140,140,140);
+	border-bottom: 5px solid rgb(140,140,140);	
+}
+
+footer p{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+footer h2{
+	font-size: 15px;
+}
+
+footer h3{
+	font-size: 20px;
+}
